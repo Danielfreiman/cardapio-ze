@@ -14,4 +14,19 @@
 .fruit h1{font-size:15mm;margin-bottom:4mm}
 .back-cover{text-align:center;padding:10mm 0}.back-cover>img{width:90mm;height:90mm;object-fit:contain}.back-cover h1{font-size:18mm;line-height:1.1;margin:10mm 0}.back-cover p{font-size:5mm}.back-cover strong{font-size:8mm}.back-cover .back-mascot{display:block;width:45mm;height:60mm;margin:8mm auto}.back-page .vertical{display:none}.back-page{padding-left:10mm}
 @page{size:A4 portrait;margin:0}
+.acai .content,.fruit .content{position:static}
+.acai h1,.fruit h1{position:relative;margin-bottom:7mm}
+.acai h2,.fruit h2{margin:6mm 0 3mm}
+.acai .sizes .row,.fruit .sizes .row{display:grid;grid-template-columns:27mm 18mm 22mm 1fr;gap:3mm;align-items:center;min-height:8mm}
+.sizes .row i{width:100%;max-width:none}.sizes .row b{text-align:right}.sizes .row small{justify-self:start;margin-left:2mm;min-width:0;padding:1mm 2mm}
+.acai .flavors,.fruit .flavors{line-height:1.5;column-gap:12mm}
+.acai .free,.fruit .free{line-height:1.5;column-gap:7mm;font-size:3.9mm}
+.acai .extras,.fruit .extras{padding:3mm 4mm 4mm;column-gap:7mm}
+.acai .extras .row,.fruit .extras .row{font-size:3.4mm;line-height:1.75;gap:3mm}
+.acai h2:last-of-type,.fruit h2:last-of-type{padding-top:4mm;padding-bottom:2mm}
+.acai .mascot,.fruit .mascot{position:absolute;top:-15mm;right:-13mm;width:67mm;height:82mm;object-fit:contain;transform:rotate(-24deg);pointer-events:none;z-index:0}
+.acai h1,.fruit h1{padding-right:32mm}
+.fruit h1{font-size:14mm;margin-bottom:5mm}
+.fruit h2{margin-top:4mm}.fruit .sizes .row{min-height:7mm}
+.fruit .free{line-height:1.4}.fruit .extras .row{line-height:1.6}
 @media print{.sheet{width:210mm;height:297mm;break-after:page;page-break-after:always}.sheet:last-child{break-after:auto;page-break-after:auto}}
