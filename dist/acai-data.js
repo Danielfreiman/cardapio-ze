@@ -1,0 +1,3 @@
+const sizes=[[200,11.9],[300,16.9],[400,18.9],[500,22.9],[700,29.9]];
+const free=['Paçoquita','Leite Ninho','Amendoim','Farinha de amendoim','Granola','Leite condensado','Granulado de chocolate','Granulado colorido','Chocoball','Sucrilhos','Aveia','Nescau Ball','Morango','Banana','Uva'];
+const extras=[['Creme de Ninho',4],['Topo de Chantininho',4],['Borda de Chantininho',4],['Creme de Morango',3],['Creme de Maracujá',4],['Creme de Beijinho',3],['Topo de Nutella',8],['Borda de Nutella',8],['Creme de Pistache',8],['Creme de Ovomaltine',8],['Kiwi',4],['Doce de Leite',4.5],['Ovomaltine Flocos',3.5],['Ovomaltine Rocks',6]];
