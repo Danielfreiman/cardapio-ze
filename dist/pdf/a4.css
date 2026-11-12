@@ -81,3 +81,8 @@ body,button,a,small,strong,b,p,li,span,h1,h2,h3,footer{font-family:'Poppins',san
 .dessert-page .bottom-mascot{position:absolute;right:-17mm;bottom:-10mm;width:45mm;height:55mm;transform:rotate(-20deg)}
 .dessert-page .content,.snack-page .content{min-height:245mm}
 .snack-logo{display:none}
+
+/* Mesmo tratamento lateral em todas as folhas. */
+.sheet .vertical{display:block;font-family:'Poppins',sans-serif;font-size:36mm;font-weight:900;line-height:1;letter-spacing:-1.8mm;left:-14mm;top:36mm;white-space:nowrap;pointer-events:none;user-select:none;z-index:0}
+.back-page{padding-left:27mm}.back-page .back-cover h1{font-size:17mm}
+.dessert-page .bottom-mascot{right:-25mm;bottom:-25mm;width:30mm;height:38mm}
