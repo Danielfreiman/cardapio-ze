@@ -86,3 +86,15 @@ body,button,a,small,strong,b,p,li,span,h1,h2,h3,footer{font-family:'Poppins',san
 .sheet .vertical{display:block;font-family:'Poppins',sans-serif;font-size:36mm;font-weight:900;line-height:1;letter-spacing:-1.8mm;left:-14mm;top:36mm;white-space:nowrap;pointer-events:none;user-select:none;z-index:0}
 .back-page{padding-left:27mm}.back-page .back-cover h1{font-size:17mm}
 .dessert-page .bottom-mascot{right:-25mm;bottom:-25mm;width:30mm;height:38mm}
+
+/* Distribui grupos completos, mantendo área livre antes do rodapé. */
+.snack-page .content{height:252mm;min-height:0;display:flex;flex-direction:column;justify-content:space-between;gap:6mm}
+.snack-page .menu-block{flex:0 0 auto;break-inside:avoid}
+.snack-page .menu-block .banner{font-size:14mm;line-height:1.12;margin:0 0 5mm;padding:2mm 4mm;display:table}
+.snack-page .menu-block h2{font-size:9mm;line-height:1.25;margin:0 0 5mm}
+.snack-page .block-items{display:flex;flex-direction:column;gap:1.5mm}
+.snack-page .row{line-height:1.45;min-height:8mm}
+.snack-page .note{margin:3mm 0 0;font-size:4.6mm;line-height:1.4}
+.snack-page .self{flex:0 0 auto;margin:0;padding:3mm 4mm}
+.snack-page .self strong{font-size:5.6mm;line-height:1.4;display:block}
+.snack-page .self p{font-size:4.2mm;line-height:1.45;margin:1mm 0 0}
