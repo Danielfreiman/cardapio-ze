@@ -1,6 +1,7 @@
 /* Uma página do cardápio por folha A4, em retrato. */
 :root{--purple:#8b306b;--cream:#f5e2be}
 .sheet{border:0}
+.acai .vertical{font-size:36mm;line-height:1;letter-spacing:-1.8mm;left:-14mm;top:36mm;white-space:nowrap;pointer-events:none;user-select:none}
 .acai h1{font-size:22mm;margin-bottom:4mm}
 .acai h2,.fruit h2{margin:3mm 0 2mm;font-size:5.7mm}
 .acai .row,.fruit .row{font-size:5mm;line-height:1.3}
