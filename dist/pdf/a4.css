@@ -47,3 +47,37 @@ body,button,a,small,strong,b,p,li,span,h1,h2,h3,footer{font-family:'Poppins',san
 .dessert-page .content,.snack-page .content{min-height:254mm;display:flex;flex-direction:column;justify-content:space-between}
 .dessert-page .bottom-mascot{height:35mm}.snack-logo{height:20mm;width:20mm}
 .sheet{break-inside:avoid;contain:layout paint}.acai .content>*,.fruit .content>*{flex-shrink:0}.acai .free,.fruit .free{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));grid-auto-flow:column;grid-template-rows:repeat(5,auto);column-gap:6mm}.acai .free li,.fruit .free li{font-size:3.7mm}.acai .extras,.fruit .extras{margin-top:-1mm;border-radius:0 0 3mm 3mm}.acai h2:last-of-type,.fruit h2:last-of-type{margin-top:auto;margin-bottom:0}
+
+/* Ritmo de leitura: títulos separados das listas e corpo maior. */
+.acai .content,.fruit .content{height:auto;min-height:258mm;display:block}
+.acai h1{font-size:24mm;margin:0 0 7mm}
+.fruit h1{font-size:15mm;margin:0 0 6mm}
+.acai h2,.fruit h2{font-size:6.2mm;line-height:1.3;margin:7mm 0 5mm}
+.acai h2:first-of-type,.fruit h2:first-of-type{margin-top:0}
+.acai .sizes .row,.fruit .sizes .row{min-height:9mm;font-size:5.7mm;grid-template-columns:27mm 17mm 23mm 1fr}
+.sizes .row small{font-size:2.9mm;margin-left:2mm}
+.acai .flavors,.fruit .flavors{font-size:5mm;line-height:1.55}
+.acai .free,.fruit .free{row-gap:1mm;column-gap:8mm;line-height:1.35}
+.acai .free li,.fruit .free li{font-size:4.2mm}
+.acai .extras,.fruit .extras{min-height:0;padding:3mm 4mm 4mm;gap:1mm 7mm}
+.acai .extras .row,.fruit .extras .row{font-size:3.9mm;min-height:6.5mm;line-height:1.3;gap:2mm}
+.acai h2:last-of-type,.fruit h2:last-of-type{margin-top:7mm;margin-bottom:0;padding:4mm 4mm 3mm}
+.fruit h2{margin-top:5mm;margin-bottom:4mm;font-size:6mm}
+.fruit .sizes .row{min-height:8mm}
+.fruit .flavors{font-size:4.8mm;line-height:1.45}
+.fruit .free{row-gap:.7mm;line-height:1.3}
+.fruit .extras .row{min-height:6mm;font-size:3.8mm}
+.fruit h2:last-of-type{margin-top:5mm}
+.fruit-options{font-size:5.4mm;line-height:1.4;margin:0}
+.specials h3{font-size:5.8mm}.specials p{font-size:4.4mm;line-height:1.25}.price{font-size:8.5mm}
+.desserts .row,.coffee .row,.snack-page .row{font-size:5.8mm}
+.desserts p{font-size:5.4mm}.coffee p,.note{font-size:4.8mm}.self p{font-size:4.5mm}
+.acai h2{margin-top:6mm}.acai h2:last-of-type{margin-top:6mm}
+.acai .extras .row{min-height:6mm}
+.fruit h1{margin-bottom:4mm}.fruit h2{margin-top:4mm;margin-bottom:3mm}
+.fruit .sizes .row{min-height:7.5mm}
+.fruit .extras{row-gap:.5mm}.fruit .extras .row{min-height:5.6mm}
+.fruit h2:last-of-type{margin-top:4mm;padding-top:3mm;padding-bottom:2mm}
+.dessert-page .bottom-mascot{position:absolute;right:-17mm;bottom:-10mm;width:45mm;height:55mm;transform:rotate(-20deg)}
+.dessert-page .content,.snack-page .content{min-height:245mm}
+.snack-logo{display:none}
